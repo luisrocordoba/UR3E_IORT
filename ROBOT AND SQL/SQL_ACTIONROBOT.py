@@ -3,7 +3,7 @@ import pandas as pd
 import func_gripper
 import time
 import urx
-from func_pp import pickplace
+from func_pickplace import pickplace
 username = 'luis'
 password = 'Superman04'
 
