@@ -2,7 +2,7 @@ import pypyodbc as odbc
 import pandas as pd 
 import func_gripper
 import time
-#import urx
+import urx
 username = 'luis'
 password = 'Superman04'
 
@@ -10,7 +10,7 @@ server =  'sqldatabaseur3.database.windows.net'
 database = 'Pruebadb'
 connection_string = 'DRIVER={ODBC Driver 18 for SQL Server};SERVER='+server+';DATABASE='+database+';ENCRYPT=yes;UID='+username+';Pwd='+password
 
-import urx
+
 
 rob = urx.Robot("192.168.1.102")
 rob.set_tcp((0, 0,  0.150, 0, 0, 0)) #Definimos la ubicación del EF montado al robot
